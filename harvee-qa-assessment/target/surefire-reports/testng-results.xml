@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-28T22:24:21 IST" name="SauceDemo Automation Suite" finished-at="2026-10-28T22:24:38 IST" duration-ms="16590">
+    <groups>
+    </groups>
+    <test started-at="2026-10-28T22:24:21 IST" name="Shop and Checkout End-to-End Tests" finished-at="2026-10-28T22:24:38 IST" duration-ms="16590">
+      <class name="com.harvee.saucedemo.tests.SauceDemoSuiteTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:21 IST" name="setUp" finished-at="2026-10-28T22:24:23 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:21 IST" name="setUp" finished-at="2026-10-28T22:24:23 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:21 IST" name="setUp" finished-at="2026-10-28T22:24:23 IST" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC01_standardUserLogsInSuccessfully()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:23 IST" name="TC01_standardUserLogsInSuccessfully" description="TC01: Standard user logs in successfully and sees the Products page" finished-at="2026-10-28T22:24:26 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_standardUserLogsInSuccessfully -->
+        <test-method signature="TC02_lockedOutUserShowsError()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:23 IST" name="TC02_lockedOutUserShowsError" description="TC02: Locked-out user receives an explicit lockout error message" finished-at="2026-10-28T22:24:26 IST" duration-ms="2823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_lockedOutUserShowsError -->
+        <test-method signature="TC05_sortByNameAscendingChecksWholeList()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:23 IST" name="TC05_sortByNameAscendingChecksWholeList" description="TC05: Sorting products by Name (A to Z) orders the entire catalog list ascending" finished-at="2026-10-28T22:24:26 IST" duration-ms="3082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_sortByNameAscendingChecksWholeList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:26 IST" name="tearDown" finished-at="2026-10-28T22:24:26 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:26 IST" name="tearDown" finished-at="2026-10-28T22:24:26 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:26 IST" name="setUp" finished-at="2026-10-28T22:24:27 IST" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:26 IST" name="tearDown" finished-at="2026-10-28T22:24:26 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:26 IST" name="setUp" finished-at="2026-10-28T22:24:27 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:26 IST" name="setUp" finished-at="2026-10-28T22:24:27 IST" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC06_sortByNameDescendingChecksWholeList()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:27 IST" name="TC06_sortByNameDescendingChecksWholeList" description="TC06: Sorting products by Name (Z to A) orders the entire catalog list descending" finished-at="2026-10-28T22:24:29 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_sortByNameDescendingChecksWholeList -->
+        <test-method signature="TC07_sortByPriceLowToHighChecksWholeList()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:27 IST" name="TC07_sortByPriceLowToHighChecksWholeList" description="TC07: Sorting by Price (low to high) sorts the entire product list ascending" finished-at="2026-10-28T22:24:29 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_sortByPriceLowToHighChecksWholeList -->
+        <test-method signature="TC08_sortByPriceHighToLowChecksWholeList()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:27 IST" name="TC08_sortByPriceHighToLowChecksWholeList" description="TC08: Sorting by Price (high to low) sorts the entire product list descending" finished-at="2026-10-28T22:24:30 IST" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_sortByPriceHighToLowChecksWholeList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:29 IST" name="tearDown" finished-at="2026-10-28T22:24:29 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:29 IST" name="setUp" finished-at="2026-10-28T22:24:30 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:29 IST" name="tearDown" finished-at="2026-10-28T22:24:29 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:29 IST" name="setUp" finished-at="2026-10-28T22:24:30 IST" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC09_addTwoItemsRemoveOneVerifiesBadgeAndCartContents()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:30 IST" name="TC09_addTwoItemsRemoveOneVerifiesBadgeAndCartContents" description="TC09: Adding two items and removing one updates the cart badge and cart contents" finished-at="2026-10-28T22:24:32 IST" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_addTwoItemsRemoveOneVerifiesBadgeAndCartContents -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:30 IST" name="tearDown" finished-at="2026-10-28T22:24:30 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TC13_fullCheckoutVerifiesTotalMathAndEmptiesCart()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:30 IST" name="TC13_fullCheckoutVerifiesTotalMathAndEmptiesCart" description="TC13: Full checkout verifies Item Total + Tax == Total and empties the cart afterwards" finished-at="2026-10-28T22:24:33 IST" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_fullCheckoutVerifiesTotalMathAndEmptiesCart -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:30 IST" name="setUp" finished-at="2026-10-28T22:24:31 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_TC15_TC16_checkoutMissingFieldErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:31 IST" name="TC14_TC15_TC16_checkoutMissingFieldErrors" description="TC14, TC15, TC16: Parameterized check for missing First Name, Last Name, and Postal Code" data-provider="missingCheckoutFields" finished-at="2026-10-28T22:24:33 IST" duration-ms="2208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumarasamy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[560068]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Error: First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_TC15_TC16_checkoutMissingFieldErrors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:32 IST" name="tearDown" finished-at="2026-10-28T22:24:32 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:32 IST" name="setUp" finished-at="2026-10-28T22:24:32 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC18_cancelCheckoutOverviewPreservesCartWithoutPlacingOrder()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:32 IST" name="TC18_cancelCheckoutOverviewPreservesCartWithoutPlacingOrder" description="TC18: Clicking Cancel on Checkout Overview returns to Products without placing order" finished-at="2026-10-28T22:24:35 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_cancelCheckoutOverviewPreservesCartWithoutPlacingOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:33 IST" name="tearDown" finished-at="2026-10-28T22:24:33 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:33 IST" name="setUp" finished-at="2026-10-28T22:24:34 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:33 IST" name="tearDown" finished-at="2026-10-28T22:24:33 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:33 IST" name="setUp" finished-at="2026-10-28T22:24:34 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC14_TC15_TC16_checkoutMissingFieldErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:34 IST" name="TC14_TC15_TC16_checkoutMissingFieldErrors" description="TC14, TC15, TC16: Parameterized check for missing First Name, Last Name, and Postal Code" data-provider="missingCheckoutFields" finished-at="2026-10-28T22:24:36 IST" duration-ms="2038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arulmani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[560068]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Error: Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_TC15_TC16_checkoutMissingFieldErrors -->
+        <test-method signature="TC20_cannotOpenProductsPageByUrlAfterLoggingOut()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:34 IST" name="TC20_cannotOpenProductsPageByUrlAfterLoggingOut" description="TC20: Logged-out user cannot access /inventory.html directly by typing its URL" finished-at="2026-10-28T22:24:36 IST" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_cannotOpenProductsPageByUrlAfterLoggingOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:35 IST" name="tearDown" finished-at="2026-10-28T22:24:35 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:36 IST" name="tearDown" finished-at="2026-10-28T22:24:36 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:36 IST" name="setUp" finished-at="2026-10-28T22:24:36 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:36 IST" name="tearDown" finished-at="2026-10-28T22:24:36 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="TC14_TC15_TC16_checkoutMissingFieldErrors(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:36 IST" name="TC14_TC15_TC16_checkoutMissingFieldErrors" description="TC14, TC15, TC16: Parameterized check for missing First Name, Last Name, and Postal Code" data-provider="missingCheckoutFields" finished-at="2026-10-28T22:24:38 IST" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arulmani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kumarasamy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Error: Postal Code is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_TC15_TC16_checkoutMissingFieldErrors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8]" started-at="2026-10-28T22:24:38 IST" name="tearDown" finished-at="2026-10-28T22:24:38 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.harvee.saucedemo.tests.SauceDemoSuiteTest -->
+    </test> <!-- Shop and Checkout End-to-End Tests -->
+  </suite> <!-- SauceDemo Automation Suite -->
+</testng-results>

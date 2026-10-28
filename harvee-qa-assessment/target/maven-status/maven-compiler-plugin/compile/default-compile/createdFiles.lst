@@ -1,0 +1,9 @@
+com\harvee\saucedemo\pages\CheckoutOverviewPage.class
+com\harvee\saucedemo\driver\DriverManager.class
+com\harvee\saucedemo\pages\InventoryPage.class
+com\harvee\saucedemo\pages\CheckoutInfoPage.class
+com\harvee\saucedemo\pages\LoginPage.class
+com\harvee\saucedemo\pages\CheckoutCompletePage.class
+com\harvee\saucedemo\config\ConfigLoader.class
+com\harvee\saucedemo\pages\BasePage.class
+com\harvee\saucedemo\pages\CartPage.class

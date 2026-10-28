@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Shop and Checkout End-to-End Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Shop and Checkout End-to-End Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 28 22:24:21 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16590 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC05_sortByNameAscendingChecksWholeList()'><b>TC05_sortByNameAscendingChecksWholeList</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC05: Sorting products by Name (A to Z) orders the entire catalog list ascending</td>
+<td></td>
+<td>3</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC14_TC15_TC16_checkoutMissingFieldErrors()'><b>TC14_TC15_TC16_checkoutMissingFieldErrors</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC14, TC15, TC16: Parameterized check for missing First Name, Last Name, and Postal Code<br>Parameters: TC14, , Kumarasamy, 560068, Error: First Name is required</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC13_fullCheckoutVerifiesTotalMathAndEmptiesCart()'><b>TC13_fullCheckoutVerifiesTotalMathAndEmptiesCart</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC13: Full checkout verifies Item Total + Tax == Total and empties the cart afterwards</td>
+<td></td>
+<td>3</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC02_lockedOutUserShowsError()'><b>TC02_lockedOutUserShowsError</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC02: Locked-out user receives an explicit lockout error message</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC09_addTwoItemsRemoveOneVerifiesBadgeAndCartContents()'><b>TC09_addTwoItemsRemoveOneVerifiesBadgeAndCartContents</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC09: Adding two items and removing one updates the cart badge and cart contents</td>
+<td></td>
+<td>1</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC08_sortByPriceHighToLowChecksWholeList()'><b>TC08_sortByPriceHighToLowChecksWholeList</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC08: Sorting by Price (high to low) sorts the entire product list descending</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC06_sortByNameDescendingChecksWholeList()'><b>TC06_sortByNameDescendingChecksWholeList</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC06: Sorting products by Name (Z to A) orders the entire catalog list descending</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC20_cannotOpenProductsPageByUrlAfterLoggingOut()'><b>TC20_cannotOpenProductsPageByUrlAfterLoggingOut</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC20: Logged-out user cannot access /inventory.html directly by typing its URL</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC14_TC15_TC16_checkoutMissingFieldErrors()'><b>TC14_TC15_TC16_checkoutMissingFieldErrors</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC14, TC15, TC16: Parameterized check for missing First Name, Last Name, and Postal Code<br>Parameters: TC15, Arulmani, , 560068, Error: Last Name is required</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC18_cancelCheckoutOverviewPreservesCartWithoutPlacingOrder()'><b>TC18_cancelCheckoutOverviewPreservesCartWithoutPlacingOrder</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC18: Clicking Cancel on Checkout Overview returns to Products without placing order</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC14_TC15_TC16_checkoutMissingFieldErrors()'><b>TC14_TC15_TC16_checkoutMissingFieldErrors</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC14, TC15, TC16: Parameterized check for missing First Name, Last Name, and Postal Code<br>Parameters: TC16, Arulmani, Kumarasamy, , Error: Postal Code is required</td>
+<td></td>
+<td>1</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC01_standardUserLogsInSuccessfully()'><b>TC01_standardUserLogsInSuccessfully</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC01: Standard user logs in successfully and sees the Products page</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+<tr>
+<td title='com.harvee.saucedemo.tests.SauceDemoSuiteTest.TC07_sortByPriceLowToHighChecksWholeList()'><b>TC07_sortByPriceLowToHighChecksWholeList</b><br>Test class: com.harvee.saucedemo.tests.SauceDemoSuiteTest<br>Test method: TC07: Sorting by Price (low to high) sorts the entire product list ascending</td>
+<td></td>
+<td>2</td>
+<td>com.harvee.saucedemo.tests.SauceDemoSuiteTest@609cd4d8</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="17.298" tests="13" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\saucedemo-qa-automation-framework\harvee-qa-assessment\target\test-classes;C:\saucedemo-qa-automation-framework\harvee-qa-assessment\target\classes;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-java\4.51.0\selenium-java-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\Arul\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.51.0\selenium-chrome-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.51.0\selenium-chromium-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.51.0\selenium-devtools-latest-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.51.0\selenium-devtools-v153-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.51.0\selenium-devtools-v154-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.51.0\selenium-devtools-v155-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.51.0\selenium-edge-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.51.0\selenium-firefox-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.51.0\selenium-ie-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\Arul\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Arul\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Arul\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Arul\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Arul\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.51.0\selenium-safari-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\Arul\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Arul\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Arul\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Arul\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Arul\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Arul\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Arul\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Arul\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Arul\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Arul\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.10_7\bin"/>
+    <property name="sun.java.command" value="C:\Users\Arul\AppData\Local\Temp\surefire15159101329124014612\surefirebooter-20261028222421110_3.jar C:\Users\Arul\AppData\Local\Temp\surefire15159101329124014612 2026-10-28T22-24-20_924-jvmRun1 surefire-20261028222421110_1tmp surefire_0-20261028222421110_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\saucedemo-qa-automation-framework\harvee-qa-assessment\target\test-classes;C:\saucedemo-qa-automation-framework\harvee-qa-assessment\target\classes;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-java\4.51.0\selenium-java-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-api\4.51.0\selenium-api-4.51.0.jar;C:\Users\Arul\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.51.0\selenium-chrome-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.51.0\selenium-chromium-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-json\4.51.0\selenium-json-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.51.0\selenium-manager-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.51.0\selenium-devtools-latest-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.51.0\selenium-devtools-v153-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v154\4.51.0\selenium-devtools-v154-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v155\4.51.0\selenium-devtools-v155-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.51.0\selenium-edge-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.51.0\selenium-firefox-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-http\4.51.0\selenium-http-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.51.0\selenium-ie-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.51.0\selenium-remote-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\Arul\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Arul\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Arul\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\Arul\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-api\1.66.0\opentelemetry-api-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-context\1.66.0\opentelemetry-context-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-common\1.66.0\opentelemetry-common-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.66.0\opentelemetry-exporter-logging-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.66.0\opentelemetry-sdk-common-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.66.0\opentelemetry-sdk-extension-autoconfigure-spi-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.66.0\opentelemetry-sdk-extension-autoconfigure-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.66.0\opentelemetry-sdk-trace-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.66.0\opentelemetry-sdk-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.66.0\opentelemetry-sdk-metrics-1.66.0.jar;C:\Users\Arul\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.66.0\opentelemetry-sdk-logs-1.66.0.jar;C:\Users\Arul\.m2\repository\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-os\4.51.0\selenium-os-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.51.0\selenium-safari-driver-4.51.0.jar;C:\Users\Arul\.m2\repository\org\seleniumhq\selenium\selenium-support\4.51.0\selenium-support-4.51.0.jar;C:\Users\Arul\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Arul\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Arul\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Arul\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Arul\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Arul\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Arul\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Arul\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Arul\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Arul\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Arul"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk21.0.10_7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\saucedemo-qa-automation-framework\harvee-qa-assessment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Arul\AppData\Local\Temp\surefire15159101329124014612\surefirebooter-20261028222421110_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+7-LTS"/>
+    <property name="user.name" value="Arul"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-21.0.10.7.1"/>
+    <property name="localRepository" value="C:\Users\Arul\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-21/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Arul\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\saucedemo-qa-automation-framework\harvee-qa-assessment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="headless" value="false"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.10_7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files\Amazon Corretto\jdk21.0.10_7\bin;C:\Program Files\Apache\apache-maven-3.9.16\bin;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Amazon Corretto\jdk17.0.12_7\bin;C:\Program Files\Amazon Corretto\jdk21.0.4_7\bin;C:\Users\Arul;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Arul\.local\bin;C:\Program Files\PowerShell\7\;C:\Users\Arul\AppData\Local\Microsoft\WindowsApps;C:\Users\Arul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Arul\AppData\Local\Programs\Fiddler;C:\Users\Arul\AppData\Local\Microsoft\WindowsApps;C:\Windows\SysWow64;C:\Users\Arul\AppData\Roaming\npm;C:\Users\Arul\AppData\Local\Programs\Ollama;C:\Users\Arul\.dotnet\tools;C:\Program Files\Apache\apache-maven-3.9.16\bin;C:\Users\Arul\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;;c:\Users\Arul\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;c:\Users\Arul\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\Arul\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="21.0.10+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="TC02_lockedOutUserShowsError" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="2.813">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 28, 2026 10:24:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+Oct 28, 2026 10:24:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+Oct 28, 2026 10:24:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+  <testcase name="TC01_standardUserLogsInSuccessfully" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="2.961"/>
+  <testcase name="TC05_sortByNameAscendingChecksWholeList" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="3.087"/>
+  <testcase name="TC06_sortByNameDescendingChecksWholeList" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="1.518">
+    <system-err><![CDATA[Oct 28, 2026 10:24:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+Oct 28, 2026 10:24:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+Oct 28, 2026 10:24:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+  <testcase name="TC07_sortByPriceLowToHighChecksWholeList" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="1.728"/>
+  <testcase name="TC08_sortByPriceHighToLowChecksWholeList" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="0.101">
+    <system-err><![CDATA[Oct 28, 2026 10:24:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+  <testcase name="TC09_addTwoItemsRemoveOneVerifiesBadgeAndCartContents" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="0.862">
+    <system-err><![CDATA[Oct 28, 2026 10:24:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+Oct 28, 2026 10:24:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+  <testcase name="TC14_TC15_TC16_checkoutMissingFieldErrors[TC14, , Kumarasamy, 560068, Error: First Name is required](1)" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="0.565">
+    <system-err><![CDATA[Oct 28, 2026 10:24:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+  <testcase name="TC13_fullCheckoutVerifiesTotalMathAndEmptiesCart" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="0.852"/>
+  <testcase name="TC18_cancelCheckoutOverviewPreservesCartWithoutPlacingOrder" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="0.395">
+    <system-err><![CDATA[Oct 28, 2026 10:24:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+Oct 28, 2026 10:24:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+  <testcase name="TC14_TC15_TC16_checkoutMissingFieldErrors[TC15, Arulmani, , 560068, Error: Last Name is required](2)" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="1.599"/>
+  <testcase name="TC20_cannotOpenProductsPageByUrlAfterLoggingOut" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="2.096"/>
+  <testcase name="TC14_TC15_TC16_checkoutMissingFieldErrors[TC16, Arulmani, Kumarasamy, , Error: Postal Code is required](3)" classname="com.harvee.saucedemo.tests.SauceDemoSuiteTest" time="1.302">
+    <system-err><![CDATA[Oct 28, 2026 10:24:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 156, returning the closest version; found: 155; Please update to a Selenium version that supports CDP version 156
+]]></system-err>
+  </testcase>
+</testsuite>
