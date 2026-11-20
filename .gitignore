@@ -1,4 +1,5 @@
 *.class
 .vscode/
+**/target/
 settings.json
 **/target/screenshots/
